@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/houndstooth-pattern.png")
+    background-image: url("../images/just-waves.png")
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,11 +87,12 @@ nav a:first-child {
 }
 
 .main-section {
+    border: 1px solid #ddd;
     background: #fff;
     padding: 30px;
     margin: auto;
-    width: 100%
-    border: 1px solid #ddd;
+    height: 500px;
+    width: 100%;   
 }
 
 #profpic {
