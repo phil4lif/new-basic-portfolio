@@ -16,6 +16,31 @@ body {
     clear: both;
 }
 
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
 #masthead {
     background: #fff;
     margin: 0 0 30px;
@@ -39,4 +64,41 @@ body {
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+#profpic {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
 }
